@@ -4,17 +4,11 @@ h1 {
 }
 .hora, .head_table {
   color: white;
-  background-color: #32CD32;
+  background-color: #556B2F;
 }
 .aula {
   color: black;
-  background-color: #98FB98;
-}
-
-.table-kauan{
-  border: 2px;
-  width: 100%;
-  border-style: groove;
+  background-color: #E0FFFF;
 }
 
 body {

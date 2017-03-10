@@ -13,7 +13,7 @@ layout: default
     <div id="myDropdownTurma" class="dropdown-content">
         <!--<input type="text" placeholder="Search.." id="myInputTurma" onkeyup="filterFunction('myInputTurma','myDropdownTurma')">-->
         {% for turma in site.data.turma.turmas %}
-            <button onclick="myFunction('myDropdownTurma')" class="button" style="display:block"><a href="#{{turma}}">{{turma}}</a></button>
+            <div style="display:block"><button onclick="myFunction('myDropdownTurma')" class="button"><a href="#{{turma}}">{{turma}}</a></button></div>
         {% endfor %}
     </div>
     {% for curso in site.data.horarios.cursos %}

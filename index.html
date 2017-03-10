@@ -31,7 +31,7 @@ layout: default
                     <tr>
                       <td class="hora">{{linha.horario}}</td>
                       {% for aula in linha.aulas %}
-                            {% if aula.displicina == "INTERVALO" or aula.displicina == "ALMOÇO" or aula.displicina == "JANTAR"%}
+                            {% if aula.displicina == 'INTERVALO' or aula.displicina == 'ALMOÇO' or aula.displicina == 'JANTAR'%}
                                 <td colspan="5" class="aula">{{aula.disciplina}}<br>{{aula.professor}}</td>
                                 {% break %}
                             {% else %}

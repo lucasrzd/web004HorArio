@@ -4,15 +4,14 @@ h1 {
 }
 .hora, .head_table {
   color: white;
-  background-color: #426F42;
+  background-color: #32CD32;
 }
 .aula {
   color: black;
-  background-color: #dff7df;
+  background-color: #98FB98;
 }
 
 .table-kauan{
-  text-align: center;
   border: 2px;
   width: 100%;
   border-style: groove;
